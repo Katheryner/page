@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Raleway:wght@200;300;400;700&display=swap');
+* {
+    font-family: "Raleway", sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    color: blueviolet;
+    font-size: 40px;
+    text-shadow: 10px 10px 10px #6d0388be;
+    text-transform: capitalize;
+}
+
+.container-cards {
+    /* border: 1px solid #000; */
+    margin: 0px 50px;
+    text-align: center;
+    padding: 10px;
+    display: inline-flex;
+    
+
+}
+.container-cards .tarjeta{
+    box-shadow: 10px 1px 10px #000;
+    border-radius: 10px;
+    padding: 10px;
+    width: fit-content;
+    background: #986da350;
+}
+
+
+.container-cards .tarjeta .titulo_tarjeta {
+    color: #2b078dd7;
+    
+}
+
+.container-cards .tarjeta .d-block span {
+    display: block;
+}
+
+.container-cards .tarjeta:nth-child(1) {
+    margin-right: 200px;
+}
+
+.contenedor_cajas {
+    display:flex;
+    align-items: flex-end;
+    width: 100%;
+    justify-content: center;
+    gap: 200px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
+}
+
+.contenedor_cajas .cajas {
+    height: 100px;
+    width: 100px;
+    background-color: rebeccapurple;
+    border: 2px solid black;
+    color: aliceblue;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

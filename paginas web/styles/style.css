@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Lato:ital,wght@0,700;0,900;1,700;1,900&family=Poppins:ital,wght@0,400;1,100&family=Raleway:wght@200;300;400;700&display=swap');
+
+/*Estilos globales*/
+
+* {font-family: "Lato", sans-serif, "Roboto";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f6e5f7;
+    color: #222;
+
+}
+/*estilos cabecera*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 8px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+    z-index: 500;
+}
+.header .logo {
+    font-size: 25px;
+    color: #222;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a {
+    font-size: 18px;
+    color: #222;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 20px;
+    transition:0.3s;
+
+}
+.navbar a:hover, .navbar .active {
+    color: #8717e3;
+}
+
+.social-media a i {
+    color: rgba(156, 8, 175, 0.822);
+    font-size: 24px;
+    transform: rotate(-45deg);
+
+}
+.social-media a {
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #634370;
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+    transition: 1s;
+}
+.social-media a:hover {
+    transform: rotate(405deg)
+
+}
+.social-media {
+    display: flex;
+    gap: 20px;
+}
+
+/*estilos de cuerpo(body)*/
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 50px 8% 0;
+    overflow: hidden;
+}
+.home .home-content {
+    max-width: 630px;
+
+}
+.home .home-content h1 {
+    font-size: 50px;
+    letter-spacing: .5px;
+
+}
+.home .home-content h3 {
+    font-size: 40px;
+    color: #902bb8;
+}
+.home .home-content p {
+    font-size: 18px;
+    margin: 15px 0 30px;
+}
+.home .home-content .btn {
+    display: inline-block;
+    padding: 10px 28px;
+    background: #5f4f6b;
+    border: 2px solid #5f4f6b;
+    font-size: 16px;
+    color: #f6e5f7;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: .3s;
+}
+.home .home-content .btn:hover {
+    background: transparent;
+    color: #5f4f6b;
+}
+.home .home-img {
+    width: 450px;
+    height: 450px;
+    transform: rotate(45deg);
+    position: relative;
+    right: -15%;
+}
+.home .home-img .rombo {
+    background: #f6e5f7;
+    border: 25px solid #8717e3;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.home .home-img .rombo img{
+    position: absolute;
+    max-width: 550px;
+    top: 110px;
+    left: -250;
+    transform: rotate(-45deg);
+}
